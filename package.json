@@ -1,0 +1,39 @@
+{
+  "name": "solidts-vite",
+  "version": "1.0.0",
+  "description": "SolidJS + TypeScript + TailwindCSS + Vite template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoCavalcante/solidts-vite.git"
+  },
+  "keywords": [
+    "solidjs",
+    "typescript",
+    "vite",
+    "jsx",
+    "template"
+  ],
+  "author": "Tiago Cavalcante Trindade",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "vite build",
+    "start": "vite"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,md}": "prettier --write --no-semi"
+  }
+}
